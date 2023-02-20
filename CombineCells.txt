@@ -1,0 +1,6 @@
+Sub CombineCells()
+  If IsEmpty(Range("B21")) Then
+    Range("C20").Value = Range("C20").Value & Range("C21").Value
+    Range("C21").Clear
+  End If
+End Sub
